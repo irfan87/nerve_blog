@@ -1,3 +1,4 @@
+require 'rails_helper'
 FactoryGirl.define do
   factory :post do
     post_title {Faker::Lorem.sentence}

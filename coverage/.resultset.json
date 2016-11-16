@@ -1,0 +1,101 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/nerve2009/Desktop/workspace/projects/nerve_blog/app/controllers/posts_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        3,
+        null,
+        3,
+        3,
+        2,
+        1,
+        null,
+        4,
+        2,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        null,
+        1,
+        3,
+        null,
+        null
+      ],
+      "/Users/nerve2009/Desktop/workspace/projects/nerve_blog/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/nerve2009/Desktop/workspace/projects/nerve_blog/spec/features/posts/create_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/nerve2009/Desktop/workspace/projects/nerve_blog/spec/helpers/posts_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/nerve2009/Desktop/workspace/projects/nerve_blog/spec/models/post_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        2,
+        2,
+        null,
+        null
+      ],
+      "/Users/nerve2009/Desktop/workspace/projects/nerve_blog/app/models/post.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/nerve2009/Desktop/workspace/projects/nerve_blog/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1479328027
+  }
+}

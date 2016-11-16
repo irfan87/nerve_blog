@@ -11,8 +11,8 @@ RSpec.describe PostsController, type: :controller do
 
 		context "with invalid attributes" do
 			it "does not create a new post" do
-				post :create, post: attributes_for(:invalid_post)
-				expect(Post.count).to eq(0)
+				post :create, method: :post, params: {post_title: '', post_body: ''}
+				expect(Post.count).to not_eq(0)
 			end
 		end
 	end
