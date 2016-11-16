@@ -1,0 +1,23 @@
+<%= form_for @post do |f| %>
+	<% if @post.errors.any? %>
+		<div id="error_explanation">
+			<h2>Unable to save post because of <%= pluralize(@post.errors.count, 'error') %></h2>
+			<ul>
+				<% @post.errors.full_messages.each do |message| %>
+				<li><%= message %></li>
+				<% end %>
+			</ul>
+		</div>
+	<% end %>
+	<div class="field">
+		<%= f.label :post_title %>
+		<%= f.text_field :post_title, placeholder: 'Title' %>
+	</div>
+	<div class="field">
+		<%= f.label :post_body  %>
+		<%= f.text_area :post_body, placeholder: 'Body' %>
+	</div>
+	<div class="actions">
+		<%= f.submit %>
+	</div>
+<% end %>
